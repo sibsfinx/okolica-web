@@ -1,0 +1,18 @@
+defaults: &defaults
+  app:
+    title: Okolica
+
+development:
+  <<: *defaults
+
+
+test:
+  <<: *defaults
+
+
+production:
+  <<: *defaults
+
+
+staging:
+  <<: *defaults
